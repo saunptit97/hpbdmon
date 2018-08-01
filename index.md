@@ -123,7 +123,7 @@
         mensaje =
 '<font size="6" face="Courier New" color="#fff">Gửi Mon <3 ....<br></font>' + ' <br>' +
 
-'<font color="#fff" size="4">Anh không phải người hoàn hảo,anh hậu đậu anh vô tâm... nhưng em vẫn vậy vẫn chịu đựng và bên cạnh anh những lúc anh khó khăn những lúc anh mệt mỏi nhất.Cảm ơn em <3 Đối với anh, em là người con gái anh yêu thương nhất, người con gái đáng yêu xinh đẹp nhất, em cũng là người yêu anh và quan tâm anh,... Em hoàn hảo lắm. Thương em lắm nè</font><br>' +
+'<font color="#fff" size="4">Anh không phải người hoàn hảo, anh hậu đậu anh vô tâm... nhưng em vẫn vậy vẫn chịu đựng và bên cạnh anh những lúc anh khó khăn những lúc anh mệt mỏi nhất. Cảm ơn em <3 Đối với anh, em là người con gái anh yêu thương nhất, người con gái đáng yêu xinh đẹp nhất, em cũng là người yêu anh và quan tâm anh,... Em hoàn hảo lắm. Thương em lắm nè</font><br>' +
 
 '<br>    ' +
 

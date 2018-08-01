@@ -10,7 +10,9 @@
         var flash_urls=Array()
     }
 
-    image_urls['rain']="heartr.png";
+    image_urls['rain']="heart2.png";
+    image_urls['heart']="heartr.png";
+    image_urls['rain2']="heart3.png";
 
     $pdj(document).ready(function(){
         var c=$pdj(window).width();
@@ -33,7 +35,13 @@
                     $pdj('<div></div>').attr('id','rainDiv').css({position:'fixed',width:(c-20)+'px',height:'1px',left:'0px',top:'-5px',display:'block'}).appendTo('body');
                     
                     for(var i=1;i<=20;i++){
-                        var g=$pdj('<img/>').attr('src',image_urls['rain']).css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('rainDrop').appendTo('#rainDiv');
+                        var g=$pdj('<img/>').attr('src',image_urls['rain']).css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0, width:'20px', height : '30px'}).addClass('rainDrop').appendTo('#rainDiv');
+                        f(g);
+                        g=null
+                        var g=$pdj('<img/>').attr('src',image_urls['heart']).css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0, width:'20px', height : '30px'}).addClass('rainDrop').appendTo('#rainDiv');
+                      f(g);
+                        g=null
+                         var g=$pdj('<img/>').attr('src',image_urls['rain2']).css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0, width:'20px', height : '30px'}).addClass('rainDrop').appendTo('#rainDiv');
                         f(g);
                         g=null
                     };
