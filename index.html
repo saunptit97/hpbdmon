@@ -53,19 +53,19 @@
 
             if (step == 8) { step = 1 }
 
-            if (step == 1) { document.title = '[~~~~*' + title_new + '*~~~~]' }
+            if (step == 1) { document.title = '[~~~*' + title_new + '*~~~]' }
 
-            if (step == 2) { document.title = '[~~~*~' + title_new + '-*~~~]' }
+            if (step == 2) { document.title = '[~~*~' + title_new + '-*~~]' }
 
-            if (step == 3) { document.title = '[~~*~~' + title_new + '~~*~~]' }
+            if (step == 3) { document.title = '[~*~~' + title_new + '~~*~]' }
 
-            if (step == 4) { document.title = '[~*~~~' + title_new + '~~~*~]' }
+            if (step == 4) { document.title = '[*~~~' + title_new + '~~~*]' }
 
-            if (step == 5) { document.title = '[~~*~~' + title_new + '~~*~~]' }
+            if (step == 5) { document.title = '[~*~~' + title_new + '~~*~]' }
 
-            if (step == 6) { document.title = '[~~~*~' + title_new + '~*~~~]' }
+            if (step == 6) { document.title = '[~~*~' + title_new + '~*~~]' }
 
-            if (step == 7) { document.title = '[~~~~*' + title_new + '*~~~~]' }
+            if (step == 7) { document.title = '[~~~*' + title_new + '*~~~]' }
 
             setTimeout("flash_title()", 180);
 
